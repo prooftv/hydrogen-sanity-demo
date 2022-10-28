@@ -9,7 +9,7 @@ export default defineConfig({
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'oxygenator.myshopify.com',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'mr-salons.myshopify.com',
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
