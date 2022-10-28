@@ -9,7 +9,7 @@ export default defineConfig({
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'https://hydrogen-mrsalons.vercel.app',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'https://mr-salons.myshopify.com',
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
